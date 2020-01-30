@@ -7,30 +7,192 @@ root.geometry("400x400")
 
 def user_click1():
     btn1["text"] = "X"
-
+    o = randint(1,9)
+    if o != 1:
+        if o == 2:
+            btn2["text"] = "O"
+        if o == 3:
+            btn3["text"] = "O"
+        if o == 4:
+            btn4["text"] = "O"
+        if o == 5:
+            btn5["text"] = "O"
+        if o == 6:
+            btn6["text"] = "O"
+        if o == 7:
+            btn7["text"] = "O"
+        if o == 8:
+            btn8["text"] = "O"
+        if o == 9:
+            btn9["text"] = "O"
+        
 def user_click2():
     btn2["text"] = "X"
+     o = randint(1,9)
+    if o != 2:
+        if o == 1:
+            btn1["text"] = "O"
+        if o == 3:
+            btn3["text"] = "O"
+        if o == 4:
+            btn4["text"] = "O"
+        if o == 5:
+            btn5["text"] = "O"
+        if o == 6:
+            btn6["text"] = "O"
+        if o == 7:
+            btn7["text"] = "O"
+        if o == 8:
+            btn8["text"] = "O"
+        if o == 9:
+            btn9["text"] = "O"
 
 def user_click3():
     btn3["text"] = "X"
+     o = randint(1,9)
+    if o != 3:
+        if o == 2:
+            btn2["text"] = "O"
+        if o == 1:
+            btn1["text"] = "O"
+        if o == 4:
+            btn4["text"] = "O"
+        if o == 5:
+            btn5["text"] = "O"
+        if o == 6:
+            btn6["text"] = "O"
+        if o == 7:
+            btn7["text"] = "O"
+        if o == 8:
+            btn8["text"] = "O"
+        if o == 9:
+            btn9["text"] = "O"
 
 def user_click4():
     btn4["text"] = "X"
+     o = randint(1,9)
+    if o != 4:
+        if o == 2:
+            btn2["text"] = "O"
+        if o == 3:
+            btn3["text"] = "O"
+        if o == 1:
+            btn1["text"] = "O"
+        if o == 5:
+            btn5["text"] = "O"
+        if o == 6:
+            btn6["text"] = "O"
+        if o == 7:
+            btn7["text"] = "O"
+        if o == 8:
+            btn8["text"] = "O"
+        if o == 9:
+            btn9["text"] = "O"
 
 def user_click5():
     btn5["text"] = "X"
+     o = randint(1,9)
+    if o != 5:
+        if o == 2:
+            btn2["text"] = "O"
+        if o == 3:
+            btn3["text"] = "O"
+        if o == 4:
+            btn4["text"] = "O"
+        if o == 1:
+            btn1["text"] = "O"
+        if o == 6:
+            btn6["text"] = "O"
+        if o == 7:
+            btn7["text"] = "O"
+        if o == 8:
+            btn8["text"] = "O"
+        if o == 9:
+            btn9["text"] = "O"
 
 def user_click6():
     btn6["text"] = "X"
+     o = randint(1,9)
+    if o != 6:
+        if o == 2:
+            btn2["text"] = "O"
+        if o == 3:
+            btn3["text"] = "O"
+        if o == 4:
+            btn4["text"] = "O"
+        if o == 5:
+            btn5["text"] = "O"
+        if o == 1:
+            btn1["text"] = "O"
+        if o == 7:
+            btn7["text"] = "O"
+        if o == 8:
+            btn8["text"] = "O"
+        if o == 9:
+            btn9["text"] = "O"
 
 def user_click7():
     btn7["text"] = "X"
+     o = randint(1,9)
+    if o != 7:
+        if o == 2:
+            btn2["text"] = "O"
+        if o == 3:
+            btn3["text"] = "O"
+        if o == 4:
+            btn4["text"] = "O"
+        if o == 5:
+            btn5["text"] = "O"
+        if o == 6:
+            btn6["text"] = "O"
+        if o == 1:
+            btn1["text"] = "O"
+        if o == 8:
+            btn8["text"] = "O"
+        if o == 9:
+            btn9["text"] = "O"
 
 def user_click8():
     btn8["text"] = "X"
+     o = randint(1,9)
+    if o != 8:
+        if o == 2:
+            btn2["text"] = "O"
+        if o == 3:
+            btn3["text"] = "O"
+        if o == 4:
+            btn4["text"] = "O"
+        if o == 5:
+            btn5["text"] = "O"
+        if o == 6:
+            btn6["text"] = "O"
+        if o == 7:
+            btn7["text"] = "O"
+        if o == 1:
+            btn1["text"] = "O"
+        if o == 9:
+            btn9["text"] = "O"
 
 def user_click9():
     btn9["text"] = "X"
+     o = randint(1,9)
+    if o != 9:
+        if o == 2:
+            btn2["text"] = "O"
+        if o == 3:
+            btn3["text"] = "O"
+        if o == 4:
+            btn4["text"] = "O"
+        if o == 5:
+            btn5["text"] = "O"
+        if o == 6:
+            btn6["text"] = "O"
+        if o == 7:
+            btn7["text"] = "O"
+        if o == 8:
+            btn8["text"] = "O"
+        if o == 1:
+            btn1["text"] = "O"
 
 
 btn1 = Button(root, text="-", height = 8, width = 18, command = user_click1)
